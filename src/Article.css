@@ -1,0 +1,90 @@
+.ArticleSubsection {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.ArticleHeader {
+  color: white;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.ArticleHeader h1 {
+  font-size: 3.125rem;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+.ArticleHeader time {
+  margin: 0 0.3rem;
+  font-weight: 100;
+  color: #EEEEEE;
+}
+.ArticleHeader .fa {
+  color: #EEE;
+  margin-left: 0.3rem;;
+}
+.ArticleSection .MainImage {
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.ArticleMain {
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;;
+  background-color: #FFF;
+  font-size: 1.2rem;
+}
+
+.ArticleMain ul {
+  padding: 0;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.ArticleMain ul {
+  list-style: none;
+  border: 1px solid #CCC;
+  border-radius: 3px;
+}
+
+.ArticleMain ul li {
+  padding: 0.5rem 1rem;
+  margin: 0;
+  border-bottom: 1px solid #CCC;
+}
+
+.ArticleMain ul li:before {
+  content: '\f054';
+  font-family: FontAwesome;
+  color: #CCC;
+  margin-right: 0.5rem;
+}
+
+.ArticleMain ul li:last-child {
+  border-bottom: none;
+}
+
+.ArticleMain ul li:hover {
+  background-color: #EEE;
+}
+
+.ArticleMain a {
+  text-decoration: none;
+  background-image: linear-gradient(120deg, #66d6ff 0%, #66d6ff 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2rem;
+  background-position: 0 80%;
+  transition: all 0.25s ease-in;
+  padding: 0.1rem 0.2rem;
+  border-radius: 3px
+}
+
+.ArticleMain a:hover {
+  background-position: 0 100%;
+  background-size: 100% 100%;
+}
+

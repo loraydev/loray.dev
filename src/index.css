@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Kreon:700|Lato:300,400,700');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
+  margin-top: 6rem;
   padding: 0;
   font-family: 'Lato', sans-serif;
   background-color: #263238;
@@ -9,4 +14,97 @@ body {
 
 a {
   color: #263238;
+}
+
+p {
+  line-height: 1.5;
+}
+
+code {
+  font-family: monospace;
+  background-color: #EEE;
+  border-radius: 2px;
+  padding: 0 0.5rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  line-height: 1.5;
+  border: 2px solid #ED383A;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 3px;
+  text-align: left;
+  font-size: 1rem;
+}
+
+thead {
+  background-color: #ED383A;
+  color: #FFF;
+}
+
+th, td {
+  padding: 0.5rem;
+}
+
+tbody td {
+  border-bottom: 1px solid #CCC;
+}
+
+tbody tr:hover, tfoot tr:hover {
+  background-color: #EEE;
+}
+
+tfoot td {
+  border-top: 2px solid #CCC;
+}
+
+blockquote {
+  background-color: #EEE;
+  border-left: 5px solid #CCC;
+  padding: 0.5rem;
+  border-radius: 3px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.7rem 0;
+  font-weight: 100;
+}
+h1 { font-size: 3.583rem }
+h2 { font-size: 2.986rem }
+h3 { font-size: 2.488rem }
+h4 { font-size: 2.074rem }
+h5 { font-size: 1.728rem }
+h6 { font-size: 1.44rem }
+
+
+
+.Main {
+  display: flex;
+  color: white;
+  margin: 0.5rem 5rem;
+}
+
+.Blog {
+  margin-right: 2rem;
+}
+
+.Main span a {
+  color: #02BCFF;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.Main section > h2 {
+  margin-bottom: 0;;
 }
