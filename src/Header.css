@@ -5,6 +5,10 @@
   letter-spacing: 1px;
   padding: 0 5rem;
   font-size: 1.44rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #Header a {
@@ -86,6 +90,7 @@
     text-align: center;
     justify-content: space-around;
     padding: 0.5rem 0;
+    border-top: 2px solid #263238;
   }
   .HeaderNav .MainMenu li a {
     padding: 0;

@@ -1,0 +1,9 @@
+.PostCards {
+  margin: 0;
+  margin-top: 3rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 36rem;
+  flex-wrap: wrap;
+}
