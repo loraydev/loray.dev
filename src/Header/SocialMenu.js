@@ -25,7 +25,7 @@ class SocialMenu extends Component {
       let menu = this.state.content.social_menu.map( (item, index) => {
         return (
           <li key={index}>
-            <a href={item.link}><i className={"fa " + item.icon} aria-hidden="true"></i></a>
+            <a href={item.link.url} target="_blank"><i className={"fa " + item.icon} aria-hidden="true"></i></a>
           </li>
         );
       });

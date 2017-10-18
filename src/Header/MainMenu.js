@@ -25,7 +25,7 @@ class MainMenu extends Component {
       let menu = this.state.content.main_menu.map( (item, index) => {
         return (
           <li key={index}>
-            <a href={item.link}><i className={"fa " + item.icon} aria-hidden="true"></i> {item.title}</a>
+            <a href={item.link.url}><i className={"fa " + item.icon} aria-hidden="true"></i> {item.title}</a>
           </li>
         );
       });

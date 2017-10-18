@@ -1,0 +1,39 @@
+.ArticleSubsection {
+  max-width: 1024px;
+  margin: auto;
+}
+
+.ArticleHeader {
+  color: white;
+  margin: 1.5rem 0 3rem 0;
+}
+
+.ArticleHeader h1 {
+  font-size: 3.125rem;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+}
+.ArticleHeader time {
+  margin: 0 0.3rem;
+  font-weight: 100;
+  color: #EEEEEE;
+}
+.ArticleHeader .fa {
+  color: #EEE;
+  margin-left: 0.3rem;;
+}
+.ArticleSection .MainImage {
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.ArticleMain {
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;;
+  background-color: #FFF;
+}
